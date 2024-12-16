@@ -54,6 +54,10 @@ file1.txt,Data1,Value1
 file2.jpg,Data2,Value2
 ```
 
+
+## Results
+![](./results.png)
+
 ## Features
 - Concurrent blob existence checking
 - Colorful terminal output
