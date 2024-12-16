@@ -71,8 +71,3 @@ file2.jpg,Data2,Value2
 - Verify container name matches exactly
 - Check that the CSV file is properly formatted
 
-## License
-MIT License
-
-## Contributing
-Contributions are welcome! Please submit a pull request or open an issue.
