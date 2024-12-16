@@ -23,7 +23,8 @@ python3 -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 # Install the package
-pip install .
+pip install -r requirements.txt
+
 ```
 
 ### Option 2: Direct pip install
@@ -35,12 +36,12 @@ pip install git+https://github.com/dannotes/azure-blob-existence-checker.git
 
 ### Basic Usage
 ```bash
-azure-blob-checker "YOUR_CONNECTION_STRING" "CONTAINER_NAME" "path/to/input.csv"
+azure-blob-checker/blob_checker.py "YOUR_CONNECTION_STRING" "CONTAINER_NAME" "path/to/input.csv"
 ```
 
 ### Export Results to CSV
 ```bash
-azure-blob-checker "YOUR_CONNECTION_STRING" "CONTAINER_NAME" "path/to/input.csv" -export csv
+azure-blob-checker/blob_checker.py "YOUR_CONNECTION_STRING" "CONTAINER_NAME" "path/to/input.csv" -export csv
 ```
 
 ## Input CSV Format

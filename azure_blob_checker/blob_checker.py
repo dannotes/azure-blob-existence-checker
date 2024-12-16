@@ -69,7 +69,7 @@ def process_csv_with_blob_check(connection_string, container_name, csv_path, exp
     print(f"{Fore.YELLOW}Total files to check:{Style.RESET_ALL} {total_files}")
     
     # Concurrent blob existence check
-    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
         # Create a future for each filename
         futures = {
             executor.submit(
