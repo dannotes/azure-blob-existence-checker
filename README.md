@@ -36,12 +36,12 @@ pip install git+https://github.com/dannotes/azure-blob-existence-checker.git
 
 ### Basic Usage
 ```bash
-azure-blob-checker/blob_checker.py "YOUR_CONNECTION_STRING" "CONTAINER_NAME" "path/to/input.csv"
+blob_checker.py "YOUR_CONNECTION_STRING" "CONTAINER_NAME" "path/to/input.csv"
 ```
 
 ### Export Results to CSV
 ```bash
-azure-blob-checker/blob_checker.py "YOUR_CONNECTION_STRING" "CONTAINER_NAME" "path/to/input.csv" -export csv
+blob_checker.py "YOUR_CONNECTION_STRING" "CONTAINER_NAME" "path/to/input.csv" -export csv
 ```
 
 ## Input CSV Format
