@@ -1,0 +1,11 @@
+# Ignore all text files
+*.txt
+
+# Ignore all log files
+*.log
+
+# Ignore all CSV files
+*.csv
+
+# Allow example_input.csv
+!example_input.csv
